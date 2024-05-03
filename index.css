@@ -204,6 +204,165 @@ section {
   width: 75%;
 }
 
+/* Projects Section */
+.projects {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 80px 0;
+  text-align: center;
+  height: 100vh;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-box {
+  width: 20%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  display: inline;
+  flex-direction: column;
+}
+
+.project-box:hover {
+  transform: translateY(-5px);
+}
+.project-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-box p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.project-box a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-box a:hover {
+  background-color: #0056b3;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-box {
+  width: 30%;
+  height: 20%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.project-box:hover {
+  transform: translateY(-5px);
+}
+
+.project-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-box p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.project-box a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-box a:hover {
+  background-color: #0056b3;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.project-box {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.project-box:hover {
+  transform: translateY(-5px);
+}
+.project-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-box p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
 /* Experience Section Styles */
 .experience {
   background-color: #ffcc29;
